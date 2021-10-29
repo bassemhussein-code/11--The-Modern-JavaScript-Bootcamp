@@ -1,0 +1,2 @@
+if you don't pass an argument to the function . it doesn't give an error . 
+it provide an undefined to this parameter (unlike the rest languages. )  .
