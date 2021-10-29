@@ -8,9 +8,7 @@ let restuarant  = {
             console.log('yes there is a place for guest .')
         }
     } , 
-    removeParty : function(){
-        
-    }
+   
 
 }
 
