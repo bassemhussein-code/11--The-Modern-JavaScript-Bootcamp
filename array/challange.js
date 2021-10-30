@@ -1,9 +1,17 @@
-let notes = ['note1' ,'note2 ', 'note3 ' , 'note4 ']
+let todos = ['clean home' ,'get the ticket', 'listen to music' , 'drink water']
 
-notes.splice(2,1)
-notes.push('new last item')
-notes.shift() 
+todos.splice(2,1)
+todos.push('Buy coffee')
+todos.shift() 
 
-console.log(notes.length)
+console.log(todos.length)
 
-console.log(notes)
+console.log(todos)
+
+
+todos.forEach(function( item,index){
+
+const num = index +1 
+console.log(`${num}. ${item}`)
+})
+
