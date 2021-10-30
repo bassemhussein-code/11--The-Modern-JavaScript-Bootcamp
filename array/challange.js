@@ -15,3 +15,10 @@ const num = index +1
 console.log(`${num}. ${item}`)
 })
 
+
+for(let i = 0 ; i <todos.length  ; i ++) {
+    const num = i + 1
+    const todo = todos[i]
+
+    console.log(`${num}. ${todo}`)
+}
