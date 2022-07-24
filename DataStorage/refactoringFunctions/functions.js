@@ -50,3 +50,8 @@ const renderingLocaStorage = function(){
         return []
     }
 }
+
+const filtering = function(){
+    todos  = renderingLocaStorage()
+    createElement()
+}
