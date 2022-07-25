@@ -7,7 +7,6 @@ const filteringTasks = function(){
  return uncompletedTasks
 }
 
-
 const createElement = function(){
    
     const uncompletedTasks= filteringTasks()
@@ -54,4 +53,13 @@ const renderingLocaStorage = function(){
 const filtering = function(){
     todos  = renderingLocaStorage()
     createElement()
+}
+
+const renderingInput = function(){
+
+    document.querySelector('#add-todo').addEventListener('click', function(){
+        renderInputPara()
+        filtering()
+    });
+    
 }
